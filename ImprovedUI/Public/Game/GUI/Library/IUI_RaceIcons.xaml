@@ -1301,6 +1301,55 @@
 				</Setter>
 			</DataTrigger>
 			<!-- EDIT HERE -->
+			<DataTrigger Binding="{Binding Guid}" Value="a556e449-e43b-46bf-a6fe-5333f317c473">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/Yuanti/CC/icons_races/Yuanti.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="62a2a619-28d6-4224-bdde-1f7494cad480">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/FeyEladrin/CC/icons_races/Eladrin.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="2aac93e7-2992-4fad-82c7-08793a4c5f18">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/FeyEladrin/CC/icons_races/Eladrin_Autumn.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="e374e73d-59b3-45e4-9d06-716cc51d824e">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/FeyEladrin/CC/icons_races/Eladrin_Spring.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="32066c38-b522-4268-9d1e-141a38fe5b3d">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/FeyEladrin/CC/icons_races/Eladrin_Summer.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="ecbd4ed9-fbd1-4259-b9ec-59f541c3c696">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/FeyEladrin/CC/icons_races/Eladrin_Winter.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding Guid}" Value="ac3e9be4-9340-4e44-a1fa-e6731a344401">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/Firbolgs/CC/icons_races/Firbolg.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 </ResourceDictionary>
